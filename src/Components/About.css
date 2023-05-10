@@ -1,0 +1,65 @@
+.image{
+    margin-top: 10%;
+    
+}
+body{
+    overflow-x: hidden;
+    }
+.imagesize{
+    margin-top: 5%;
+    width: 15%;
+   
+    
+}
+.heading{
+    margin-left: 20%;
+}
+.card:hover {
+    transform: scale(1.1);
+  }
+ .hover{padding: 1%;
+} 
+.foot{
+    display: flex;
+    font-size: 15px;
+    margin-top: 5%;
+
+
+}
+li{
+    text-decoration: none;
+    list-style: none;
+
+}
+.head{
+ font-weight: 600;
+}
+.icon{
+    display: flex;
+}
+.social{
+    margin-left: 5%;
+    
+}
+.social1{
+    margin-left: 15%;
+}
+.social2{
+    margin-left:5%;
+}
+.social3 ul{
+display: flex;     
+}
+.social3 ul li{
+width: 30px;
+height: 40px;
+    }
+.social4 ul{
+display: flex;     
+
+
+}
+.social4 ul li{
+    width: 30px;
+    height: 40px;
+        }
