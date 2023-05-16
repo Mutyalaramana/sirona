@@ -6,9 +6,9 @@ import Row from 'react-bootstrap/Row';
 function ShapeExample() {
   return (
     
-    <Container style={{padding:"30px",width:"90%",marginTop:"5%"}}>
+    <Container style={{padding:"30px",marginTop:"5%"}}>
      <h5 className='heading'style={{marginBottom:"5%" ,margin:"auto",borderBottom:"10px solid pink ",width:"210px"}}> SHOP BY CATEGORIES</h5>
-      <Row d-flex justify>
+      <Row className='d-flex justify text-center'style={{marginTop:"5%" }} >
         <Col className='imagesize'>
           <Image src="https://files.thesirona.com/site-images/original/01-Period-Care_2.png" roundedCircle />
           <div className='card-text  mx-3' style={{ fontWeight: 600 }}>Period care</div>

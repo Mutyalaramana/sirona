@@ -25,7 +25,7 @@ function MyNavbar() {
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
       
-    <Nav className='mx-auto '>
+    <Nav className='mx-auto flex-wrap fs-6'>
         <Nav.Link href="#">SHOP ALL</Nav.Link>
         <Nav.Link href="#">PERIOD CARE</Nav.Link>
         <Nav.Link href="#">INTIMATE CARE</Nav.Link>

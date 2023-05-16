@@ -2,6 +2,7 @@ import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+
 function App() {
     const settings = {
       dots: true,
@@ -17,7 +18,7 @@ function App() {
       <div >
         <div class="card m-2">
         <img  src="https://files.thesirona.com/site-images/400x400/mini-travel-razor-1.jpg" alt="kitten" /> 
-  <div class="card-body">
+  <div class="card-body product">
     <div class="card-title"style={{ fontWeight: 600 }}>MENSTRUAL CUP WITH POUCH - MEDIUM</div>
     <div class="card-subtitle">FDA Approved | 100% medical grade silicone | Reusable </div>
     <div class="rating ">
@@ -29,7 +30,7 @@ function App() {
         <div>
         <div class="card m-2">
         <img  src="https://files.thesirona.com/site-images/400x400/toilet-spray-vanilla-1.jpg" alt="kitten" />
-  <div class="card-body">
+  <div class="card-body product ">
     <div class="card-title"style={{ fontWeight: 600 }}>MENSTRUAL CUP WITH POUCH - MEDIUM</div>
     <div class="card-subtitle">FDA Approved | 100% medical grade silicone | Reusable </div>
     <div class="rating ">
@@ -42,7 +43,7 @@ function App() {
         <div>
         <div class="card m-2">
         <img  src="https://files.thesirona.com/site-images/400x400/Intimate-Serum.jpg" alt="kitten" />
-      <div class="card-body">
+      <div class="card-body product">
     <div class="card-title"style={{ fontWeight: 600 }}>MENSTRUAL CUP WITH POUCH - MEDIUM</div>
     <div class="card-subtitle">FDA Approved | 100% medical grade silicone | Reusable </div>
     <div class="rating ">
@@ -55,7 +56,7 @@ function App() {
 
         <div class="card m-2">
         <img  src="https://files.thesirona.com/site-images/400x400/Flowtime-Duo-Pack-Medium.jpg" alt="kitten" />
-  <div class="card-body">
+  <div class="card-body product">
     <div class="card-title "style={{ fontWeight: 600 }}>MENSTRUAL CUP WITH POUCH - MEDIUM</div>
     <div class="card-subtitle">FDA Approved | 100% medical grade silicone | Reusable </div>
     <div class="rating ">
@@ -68,7 +69,7 @@ function App() {
         <div>
         <div class="card m-2">
         <img  src="https://files.thesirona.com/site-images/400x400/mini-travel-razor-1.jpg" alt="kitten" />
-  <div class="card-body">
+  <div class="card-body product">
     <div class="card-title"style={{ fontWeight: 600 }}>MENSTRUAL CUP WITH POUCH - MEDIUM</div>
     <div class="card-subtitle">FDA Approved | 100% medical grade silicone | Reusable </div>
     <div class="rating ">

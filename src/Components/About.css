@@ -63,3 +63,8 @@ display: flex;
     width: 30px;
     height: 40px;
         }
+        @media (min-width: 360px) and (max-width: 640px) {
+          .product{
+            font-size: 6px;
+          }
+          }

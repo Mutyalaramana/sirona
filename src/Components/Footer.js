@@ -5,7 +5,7 @@ import { FaTwitter, FaFacebook,FaYoutube, FaInstagram,FaLinkedin,FaCcVisa,FaCcMa
 const Footer = () => {
   return (
     <footer>
-        <div className='foot'>
+        <div className='foot flex-wrap'>
       <div className="shop-by">
        
         <div >
@@ -134,7 +134,7 @@ const Footer = () => {
 
 
       </div>
-      <div className='icon'>
+      <div className='icon flex-wrap'>
       <div className='social'>
       © 2023 Sirona Hygiene Private Limited
       </div>

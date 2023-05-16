@@ -11,14 +11,14 @@ function App() {
       slidesToScroll: 1,
     };
   
-    return (<div className='container'style={{marginTop:"5%"}}>
+    return (<div className='container flex-wrap'style={{marginTop:"5%"}}>
       
-      <h5 style={{textAlign:"center",marginBottom:"7%" ,margin:"auto",borderBottom:"10px solid pink ",width:"150px"}}>BEST SELLERRS</h5>
+      <h5 className="bestseller" style={{textAlign:"center" ,margin:"auto",borderBottom:"10px solid pink ",width:"150px",marginBottom:"5%"}}>BEST SELLERRS</h5>
       <Slider {...settings}>
         <div >
         <div class="card m-2">
         <img className='hover' src="https://files.thesirona.com/site-images/400x400/medium-menstrual-cup-listing-00.jpg" alt="kitten" /> 
-  <div class="card-body">
+  <div class="card-body product ">
     <div class="card-title"style={{ fontWeight: 600 }}>MENSTRUAL CUP WITH POUCH - MEDIUM</div>
     <div class="card-subtitle">FDA Approved | 100% medical grade silicone | Reusable </div>
     <div class="rating ">
@@ -34,7 +34,7 @@ function App() {
         <div>
         <div class="card m-2">
         <img className='hover' src="https://files.thesirona.com/site-images/400x400/bum-cream-1_1.png" alt="kitten" />
-  <div class="card-body">
+  <div class="card-body product">
     <div class="card-title"style={{ fontWeight: 600 }}>MENSTRUAL CUP WITH POUCH - MEDIUM</div>
     <div class="card-subtitle">FDA Approved | 100% medical grade silicone | Reusable </div>
     <div class="rating ">
@@ -50,7 +50,7 @@ function App() {
         <div>
         <div class="card m-2">
         <img className='hover' src="https://files.thesirona.com/site-images/400x400/Exfoliating-Facewash_2.jpg" alt="kitten" />
-      <div class="card-body">
+      <div class="card-body product">
     <div class="card-title"style={{ fontWeight: 600 }}>MENSTRUAL CUP WITH POUCH - MEDIUM</div>
     <div class="card-subtitle">FDA Approved | 100% medical grade silicone | Reusable </div>
     <div class="rating ">
@@ -67,7 +67,7 @@ function App() {
         <div class="card m-2">
         <img className='hover' src="https://files.thesirona.com/site-images/400x400/Period-Stain-Remover-1.jpg" alt="kitten" />
 
-  <div class="card-body">
+  <div class="card-body product">
     <div class="card-title "style={{ fontWeight: 600 }}>MENSTRUAL CUP WITH POUCH - MEDIUM</div>
     <div class="card-subtitle">FDA Approved | 100% medical grade silicone | Reusable </div>
 
@@ -90,7 +90,7 @@ function App() {
         <img className='hover' src="https://files.thesirona.com/site-images/400x400/FSp577_1.png" alt="kitten" />
 
 
-  <div class="card-body">
+  <div class="card-body product">
     <div class="card-title"style={{ fontWeight: 600 }}>MENSTRUAL CUP WITH POUCH - MEDIUM</div>
     <div class="card-subtitle">FDA Approved | 100% medical grade silicone | Reusable </div>
 
