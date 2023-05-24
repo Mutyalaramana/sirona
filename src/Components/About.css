@@ -67,4 +67,7 @@ display: flex;
           .product{
             font-size: 6px;
           }
+          body{
+            overflow-x: hidden;
+            }
           }
