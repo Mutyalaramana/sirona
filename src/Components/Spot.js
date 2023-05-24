@@ -12,8 +12,9 @@ function App() {
       slidesToScroll: 1,
     };
     return (<div className='container'style={{marginTop:"5%"}}>
+      <div style={{textAlign:"center",marginBottom:"5%"}}><span style={{textAlign:"center" ,margin:"auto", backgroundColor:"#eeaeca", marginBottom:"5%",fontSize:"20px",fontWeight:"700"}}>IN THE SPOTLIGHT</span></div>
       
-      <h5  style={{textAlign:"center ",margin:"auto",   marginBottom:"5%",borderBottom:"10px solid pink ",width:"200px"}}>IN THE SPOTLIGHT</h5>
+      {/* <h5  style={{textAlign:"center ",margin:"auto",   marginBottom:"5%",borderBottom:"10px solid pink ",width:"200px"}}>IN THE SPOTLIGHT</h5> */}
       <Slider {...settings}>
       <div >
         <div class="card m-2">

@@ -70,4 +70,11 @@ display: flex;
           body{
             overflow-x: hidden;
             }
+            .seller span{
+                font-size: 5px;
+            }
+            
           }
+         
+          
+          

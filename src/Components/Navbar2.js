@@ -13,8 +13,8 @@ function MyNavbar() {
    
 
         <Form inline className="ms-auto d-flex">
-          <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-          <Button variant="outline-success">Search</Button>
+          <FormControl type="text" placeholder="Search" className="mr-sm-1" />
+         
         </Form>
        
         </Navbar.Collapse>

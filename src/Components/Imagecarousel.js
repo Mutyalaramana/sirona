@@ -12,8 +12,8 @@ function App() {
     };
   
     return (<div className='container flex-wrap'style={{marginTop:"5%"}}>
-      
-      <h5 className="bestseller" style={{textAlign:"center" ,margin:"auto",borderBottom:"10px solid pink ",width:"150px",marginBottom:"5%"}}>BEST SELLERRS</h5>
+      <div className='seller' style={{textAlign:"center",marginBottom:"5%",}}><span style={{textAlign:"center" ,margin:"auto", backgroundColor:"#eeaeca", marginBottom:"5%",fontSize:"20px",fontWeight:"700"}}>BEST SELLER</span></div>
+      {/* <h5 className="bestseller" style={{textAlign:"center" ,margin:"auto",borderBottom:"10px solid pink ",width:"150px",marginBottom:"5%"}}>BEST SELLERRS</h5> */}
       <Slider {...settings}>
         <div >
         <div class="card m-2">
